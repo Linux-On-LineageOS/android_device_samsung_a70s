@@ -21,11 +21,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A707
 PRODUCT_MANUFACTURER := samsung
 
-BUILD_FINGERPRINT := "samsung/a70sdd/a70s:11/RP1A.200720.012/A707FDDS3CWE2:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a70sdd-user 11 RP1A.200720.012 A707FDDS3CWE2 release-keys" \
-    PRODUCT_NAME="a70s" \
-    TARGET_DEVICE="a70s"
+    BuildDesc="a70sdd-user 11 RP1A.200720.012 A707FDDS3CWE2 release-keys" \
+    BuildFingerprint=samsung/a70sdd/a70s:11/RP1A.200720.012/A707FDDS3CWE2:user/release-keys \
+    DeviceProduct=a70sdd \
+    SystemName=a70sdd
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
