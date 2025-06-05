@@ -37,3 +37,4 @@ $(call inherit-product, device/samsung/sm6150-common/common.mk)
 
 # Inherit from the proprietary files makefile
 $(call inherit-product, vendor/samsung/a70s/a70s-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
